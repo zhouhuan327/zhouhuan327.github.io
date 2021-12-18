@@ -536,7 +536,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               
             
               
-                <p>本文永久链接是：<a href=https://zhouhuan327.github.io/2020/05/07/electron-problem/>https://zhouhuan327.github.io/2020/05/07/electron-problem/</a></p>
+                <p>本文永久链接是：<a href=http://zhouhuan327.github.io/2020/05/07/electron-problem/>http://zhouhuan327.github.io/2020/05/07/electron-problem/</a></p>
               
             
           </blockquote>
@@ -578,7 +578,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://zhouhuan327.github.io/2020/05/07/electron-problem/&title=【踩坑总结】Electron中开发子进程时遇到的问题 - zhouhuan's Blog&summary=
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://zhouhuan327.github.io/2020/05/07/electron-problem/&title=【踩坑总结】Electron中开发子进程时遇到的问题 - zhouhuan's Blog&summary=
 问题：在开发过程中，创建了一个子进来程执行 cmd 的命令。在开发环境中没有任何问题，但是在打包后发现子进程并没有执行。
 "
           
@@ -592,7 +592,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://zhouhuan327.github.io/2020/05/07/electron-problem/&title=【踩坑总结】Electron中开发子进程时遇到的问题 - zhouhuan's Blog&summary=
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://zhouhuan327.github.io/2020/05/07/electron-problem/&title=【踩坑总结】Electron中开发子进程时遇到的问题 - zhouhuan's Blog&summary=
 问题：在开发过程中，创建了一个子进来程执行 cmd 的命令。在开发环境中没有任何问题，但是在打包后发现子进程并没有执行。
 "
           
@@ -606,7 +606,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://service.weibo.com/share/share.php?url=https://zhouhuan327.github.io/2020/05/07/electron-problem/&title=【踩坑总结】Electron中开发子进程时遇到的问题 - zhouhuan's Blog&summary=
+          target="_blank" href="http://service.weibo.com/share/share.php?url=http://zhouhuan327.github.io/2020/05/07/electron-problem/&title=【踩坑总结】Electron中开发子进程时遇到的问题 - zhouhuan's Blog&summary=
 问题：在开发过程中，创建了一个子进来程执行 cmd 的命令。在开发环境中没有任何问题，但是在打包后发现子进程并没有执行。
 "
           
@@ -1229,7 +1229,7 @@ function setSearchService() {
       // 请求 PV 并自增
       var pvCtn = document.querySelector('#lc-sv');
       if (pvCtn || enableIncr) {
-        var pvGetter = this.getRecord(Counter, 'https://zhouhuan327.github.io' + '/#lc-sv', 'Visits').then((record) => {
+        var pvGetter = this.getRecord(Counter, 'http://zhouhuan327.github.io' + '/#lc-sv', 'Visits').then((record) => {
           incrArr.push(this.buildIncrement(record.objectId))
           var eles = document.querySelectorAll('#lc-sv #number');
           if (eles.length > 0) {
@@ -1247,7 +1247,7 @@ function setSearchService() {
       // 请求 UV 并自增
       var uvCtn = document.querySelector('#lc-uv');
       if (uvCtn || enableIncr) {
-        var uvGetter = this.getRecord(Counter, 'https://zhouhuan327.github.io' + '/#lc-uv', 'Visitors').then((record) => {
+        var uvGetter = this.getRecord(Counter, 'http://zhouhuan327.github.io' + '/#lc-uv', 'Visitors').then((record) => {
           var vuv = this.validUV();
           vuv && incrArr.push(this.buildIncrement(record.objectId))
           var eles = document.querySelectorAll('#lc-uv #number');
@@ -1269,7 +1269,7 @@ function setSearchService() {
         for (i = 0; i < allPV.length; i++) {
           let pv = allPV[i];
           let title = pv.getAttribute('data-title');
-          var url = 'https://zhouhuan327.github.io' + pv.getAttribute('data-path');
+          var url = 'http://zhouhuan327.github.io' + pv.getAttribute('data-path');
           if (url) {
             var viewGetter = this.getRecord(Counter, url, title).then((record) => {
               // 是当前页面就自增
